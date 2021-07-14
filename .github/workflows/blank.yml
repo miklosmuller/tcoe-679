@@ -29,7 +29,7 @@ jobs:
           url: https://ds.cloud.lhsystems.com/service/rest/v1/components?repository=tcoe-679
           contentType: "multipart/form-data"
 #          bearerToken: ${{ secrets.STATUSPAGE_TOKEN }}
-          customHeaders: '{ "accept: application/json" }'
+          customHeaders: '{ "accept" : "application/json" }'
 #          data: '{ "incident" : { "name" : "test47" , "status" : "scheduled" , "scheduled_for" : "2021-06-22T11:00:00.000Z" , "scheduled_until" : "2021-06-22T12:00:00.000Z" , "scheduled_remind_prior" : "true" , "component_ids" : "634c8cdyhkwz" } }'
           data: '{ "raw.directory" : "test", "raw.asset1" : "@payload.txt;type=text/plain", "raw.asset1.filename" : "payload.txt" }'
 
