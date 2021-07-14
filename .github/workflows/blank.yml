@@ -32,7 +32,7 @@ jobs:
           method: 'POST'
           contentType: "multipart/form-data"
           customHeaders: '{ "accept" : "application/json" }'
-          data: '{ "raw.directory" : "test", "raw.asset1" : "@payload.txt;type=text/plain", "raw.asset1.Filename" : "payload.txt" }'
+          data: '{ "raw.directory" : "test", "raw.asset1" : "@payload.txt;type=text/plain", "raw.filename" : "payload.txt" }'
           files: '{ "file" : "${{ github.workspace }}/payload.txt" }'
 
       - name: Show Response
