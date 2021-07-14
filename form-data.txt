@@ -1,0 +1,3 @@
+raw.directory=test
+raw.asset1=@payload.txt;type=text/plain
+raw.asset1.filename=payload.txt
