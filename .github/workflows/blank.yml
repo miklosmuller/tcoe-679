@@ -33,7 +33,7 @@ jobs:
           customHeaders: '{ "accept" : "application/json" }'
           contentType: "multipart/form-data"
 #          data: '{ "raw.directory" : "test", "raw.asset1" : "@payload.txt;type=text/plain", "raw.asset1.filename" : "payload.txt" }'
-          data: '{ "raw.directory" : "test", "raw.asset1.filename" : "payload.txt" }'
+          data: '{ "raw.directory" : "test" }'
           files: '{ "file" : "payload.txt" }'
 #          data: '{ "raw" : { "directory" : "test", "asset1" : "@payload.txt;type=text/plain", "asset1.filename" : "payload.txt" }}'
 #          files: '{ "file" : "${{ github.workspace }}/payload.txt" }'
